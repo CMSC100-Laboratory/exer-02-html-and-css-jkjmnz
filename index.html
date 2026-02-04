@@ -2,92 +2,67 @@
 
 <html>
   <head>
-    <title>Sample Web Page</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" type="text/css" href="flex.css" />
 
   </head>
-
   <body>
     
-    <nav>
-    <div class="nav_bar" >
-        <div class="flex-item" style="flex: 1">
-            <a href="/html/">HTML</a> |
-        </div>
-        <div class="flex-item" style="flex: 1">
-            <a href="/css/">CSS</a>
-        </div> 
-    |   <div class="flex-item" style="flex: 1">
-            <a href="/js/">JavaScript</a> |
-        </div>
-        <div class="flex-item" style="flex: 1">
-            <a href="/python/">Python</a>
-        </div>
-    </div>
-    </nav>
+        <header>
+            <div class="logo">My logo</div>
+            <nav>
+                <a href="#">Projects</a>
+                <a href="#">Skills</a>
+                <a href="#">About</a>
+            </nav>
+        </header>
 
-    <div class="flex-container">
-        <div class="flex-item" style="flex: 3;">
-            <h1>1</h1>
-            <p>This is a paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>2</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 2;">
-            <h1>3</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 4;">
-            <h1>4</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>5</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 1;">
-            <h1>6</h1>
-            <p>This is another paragraph</p>
-        </div>
-    </div>
-    <div class="flex-container2">
-        <div class="flex-item" style="flex: 3;">
-            <h1>1</h1>
-            <p>This is a paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>2</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 2;">
-            <h1>3</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 4;">
-            <h1>4</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>5</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 1;">
-            <h1>6</h1>
-            <p>This is another paragraph</p>
-        </div>
-    </div>
+        <main>
+            <section class="featured">
+                <div class="featured-photo">Jankriz Jimenez</div>
+            </section>
+
+            <section class="projects">
+                <h3>Previous Projects</h3>
+                <div class="project-list">
+
+                    <div class="box project-card">
+                        <img src="cmsc12project.png" alt="Screenshot of Project 1">
+                        <h4>CMSC 12 Project</h4>
+                    </div>
+
+                    <div class="box project-card">
+                        <img src="cmsc22project.png" alt="Screenshot of Project 2">
+                        <h4>CMSC 22 Project</h4>
+                    </div>
+
+                    <div class="box project-card">
+                        <img src="cmsc150project.png" alt="Screenshot of Project 3">
+                        <h4>CMSC 150 Project</h4>
+                    </div>
+                </div>
+            </section>
+
+            <section class="split-section">
+                <div class="box half">
+                    <h3>Skills</h3>
+                    <p>Analytical Skills, Problem Solving Skills, Python, C, R, Java, HTML, CSS</p>
+                </div>
+                <div class="box half">
+                    <h3>Autobiography</h3>
+                    <p>I am Jankriz Jimenez, a Computer Science student expecting to graduate on 2028. I enjoy... </p>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <div class="footer-info">
+                <p>Logo & Contact Info</p>
+                <p>&copy; 2026</p>
+            </div>
+            <div class="back-to-top">
+                <a href="#">Back to Top</a>
+            </div>
+        </footer>
   </body>
-
 </html>
