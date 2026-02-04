@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    padding: 20px;
+    background-color: #e8f5e9;
+    color: #1b5e20;
+}
+
+.box, .featured-photo {
+    border: 2px solid #2e7d32;
+    background: white;
+    box-shadow: 4px 4px 0px #81c784;
+}
+
+header {
+    background-color: #1b5e20;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    border: 2px solid #1b5e20;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav a {
+    color: #c8e6c9;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.featured {
+    margin-bottom: 40px;
+}
+
+.featured-photo {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.projects {
+    margin-bottom: 40px;
+}
+
+.projects h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.project-list {
+    display: flex;
+    gap: 20px;
+}
+
+.project-card {
+    flex: 1;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.project-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #2e7d32;
+    margin-bottom: 10px;
+}
+
+.split-section {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.half {
+    flex: 1;
+    padding: 20px;
+    min-height: 200px;
+}
+
+.half h3 {
+    border-bottom: 2px solid #a5d6a7;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #1b5e20;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 5px solid #2e7d32;
+}
+
+footer a {
+    color: #a5d6a7;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+}
